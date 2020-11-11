@@ -5,6 +5,7 @@ string next_greatest(string s,int a,int b){
 	    for(int i=s.length()-1-a;i!=b;i--){
 	        for(int j=i-1;j!=b;j--){
 	            if(stoi(to_string(s[i])) > stoi(to_string(s[j]))){
+                cout<<"hello"<<endl;
 	                a=i;
                   b=j;
 	                flag=1;
